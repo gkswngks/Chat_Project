@@ -1,0 +1,67 @@
+.pullpage{
+    background-image: url(../IMG/mainimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MainFrame {
+    color: rgb(250, 240, 230);
+    background: rgb(250, 240, 230);
+    border: 2px solid #2e2e2e;
+    line-height: 1.5;
+    width: 1920px;
+    height: 1080px;
+    margin: 3%;
+    justify-content: space-around;
+}
+
+.MainPage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.Maintext{
+    font-size: 70px;
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.Main{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+}
+
+.Main input{
+    border-radius: 10px;
+    border: 0 solid;
+    padding: 14px;
+    width: 400px;
+}
+
+.Main button{
+    position: relative;
+    background: #45484A;
+    border-radius: 10px;
+    bottom: 37px;
+    left: 313px;
+    padding: 8px 38px;
+    border: solid 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Main h1 {
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.Main h2{
+    font-size: 40px;
+}
